@@ -1,0 +1,23 @@
+Firstly we need to import the numpy.
+syntax: import numpy as np
+Here, import is a keyword to import any library, numpy is the library name, and type "as" and declare any variable name (like shorter then numpy).
+why shorter then numpy?
+because purpose of that variable is if we want to use any attribute in numpy library then we do this:
+numpy.array(), we need to type always numpy. because choose any variable shorter then numpy(preferred np).
+How to create an array in numpy?
+Syntax: np.array([1,2,3,4]);
+Note: Above array is 1D array.you declare multi-dimension array tooo.
+How to know the type of array?
+syntax: type(array_variable_name);
+What is shape?
+shape is nothing but a tuple contains number of rows and number of columns like (2,3).
+if array is more then 2D, then shape is like (2,3,3).
+if it is 1D then it will shows only columns like (3,);
+Arthematic operators in python?
++ -> addition
+- -> substraction
+* -> multiplication
+/ -> division
+// -> floor division(round down the float values)
+** -> power operators
+% -> modulo (remainder)
