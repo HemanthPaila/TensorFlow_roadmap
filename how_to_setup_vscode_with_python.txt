@@ -1,0 +1,6 @@
+1.you need to install the python manually using this link "https://www.python.org/downloads/" and add this python to the environmental variables.
+2.open the terminal and write this command "python --version".if it didn't rise any error you are good to go.
+3.open vscode in the vscode terminal install pip usinmg this command: python get-pip.py
+4.create virtual environment using this command: python venv "virtual environment name".
+5.Then you need active the virtual environment using this command : virtual_environment_name\Scripts\activate
+6.Then your setup is ready.know you can install any python library. using command like pip install numpy...etc.
