@@ -38,8 +38,38 @@ print(a + a1)  # we can add two arrays with same dimension, same shape, and same
 
 
 # Aggregation
-np.mean(a1)
-np.min(a1)
-np.max(a1)
-np.std(a1)
-np.var(a1)
+np.mean(a1)  # to know the mean of the data
+np.min(a1)  # to know the min element
+np.max(a1)  # to know the max element
+np.std(a1)  # to know the standard deviation
+np.var(a1)  # to know the varience
+
+# reshape and transpose
+a2.reshape(5, 5, 1)  # to change the shape of the array
+a2.T  # it will transpose the array axis like if an array is nxm then it transpose into mxn
+# if it is 2D array then nxm -> mxn.what if it's dimesion is multi-dimension array?
+# just reverse it like (2,3,3) -> (3,3,2)
+
+
+# Dot product and element wise
+print(a * a1)  # this is element wise multiplication
+print(np.multiply(a1, a))  # this sis also element wise multiplication
+print(np.dot(a, a1))  # to know the matrix multiplication
+# Things to know about matrix multiplication
+# 1.inner elements should be matched. means mat1 shape is nxm then mat2 shape must be mxz(z is any positive integer >0).
+# 2.The resultant dot product shape is nxz.
+
+# Comparison operators
+# Comparison operators are same as pythion comparison operator.
+
+np.sort(
+    a1
+)  # to sort the array.if it is multi-dimension array then it sorts based on axis
+# you can pass the axis also. which axis ti sort like axis=0,axis=1 ....etc.
+
+
+# Turn image into numpy array
+from matplotlib.image import imread
+
+panda = imread("images/BEE.jpg")
+print(panda)
