@@ -1,0 +1,4 @@
+What is series?
+Series is 1D array.
+What is data frame?
+data frame is collection of series.it is multi dimensional.
